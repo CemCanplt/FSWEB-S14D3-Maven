@@ -1,3 +1,4 @@
+// Holden alt sınıfı
 package org.example.company;
 
 public class Holden extends Car {

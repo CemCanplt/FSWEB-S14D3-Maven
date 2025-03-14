@@ -1,3 +1,4 @@
+// Mitsubishi alt sınıfı
 package org.example.company;
 
 public class Mitsubishi extends Car {

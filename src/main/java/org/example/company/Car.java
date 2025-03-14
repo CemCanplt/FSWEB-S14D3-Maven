@@ -1,5 +1,6 @@
 package org.example.company;
 
+// Parent class Car
 public class Car {
     private boolean engine;
     private int cylinders;
@@ -36,20 +37,22 @@ public class Car {
         if (obj == null || getClass() != obj.getClass()) return false;
 
         Car car = (Car) obj;
-
         return cylinders == car.cylinders && name.equals(car.name);
     }
 
     // Metodlar
     public String startEngine() {
-        return getClass().getSimpleName() + ": the car's engine is starting.";
+        System.out.println(getClass().getSimpleName());
+        return "the car's engine is starting";
     }
 
     public String accelerate() {
-        return getClass().getSimpleName() + ": the car is accelerating.";
+        System.out.println(getClass().getSimpleName());
+        return "the car is accelerating";
     }
 
     public String brake() {
-        return getClass().getSimpleName() + ": the car is braking.";
+        System.out.println(getClass().getSimpleName());
+        return "the car is braking";
     }
 }
